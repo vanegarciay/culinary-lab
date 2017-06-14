@@ -1,0 +1,49 @@
+.navbar-default {
+    background: transparent;
+    border: none;
+}
+
+.navbar-default .container .list-menu .navbar-collapse ul li a{
+    color: white;
+}
+
+.navbar-default .container .list-menu .navbar-collapse ul li a:hover{
+    font-weight: bold;
+}
+
+.hamburguesa {
+    color: white;
+    width: 8em;
+    height: 3em;
+    border: 1px solid #9b9595;
+}
+
+header {
+    background: url(../img/bg-header.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100vh;
+}
+
+.img-header {
+    margin-top: 17%;
+}
+
+.flecha {
+    width: 45px;
+    height: 45px;
+    padding: 2.7%;
+    color: white;
+    border: 2px solid white;
+    border-radius: 50%;
+}
+
+.icon-flecha {
+    margin-top: 10%;
+    margin-left: 45%;
+}
+
+.flecha:hover {
+    cursor: pointer;
+}
