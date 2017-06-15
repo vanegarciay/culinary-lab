@@ -1,3 +1,8 @@
+body {
+    font-family: 'Roboto Condensed', sans-serif;
+    font-size: 16px;
+}
+
 .navbar-default {
     background: transparent;
     border: none;
@@ -27,23 +32,90 @@ header {
 }
 
 .img-header {
-    margin-top: 17%;
+    margin-top: 8em;
+}
+
+.img-header img {
+    width: 50%;
+    max-width: 15em;
 }
 
 .flecha {
     width: 45px;
     height: 45px;
-    padding: 2.7%;
+    padding-top: 0.6em;
     color: white;
     border: 2px solid white;
     border-radius: 50%;
+    text-align: center;
+    margin: 0 auto;
 }
 
 .icon-flecha {
-    margin-top: 10%;
-    margin-left: 45%;
+    margin-top: 15em;
 }
 
 .flecha:hover {
     cursor: pointer;
+}
+
+.rayita {
+    border-bottom: 0.5px solid #AE9068;
+    padding: 2px;
+    width: 155px;
+    margin: 0 auto;
+}
+
+.parrafocreate {
+    padding: 20px;
+}
+
+.icon-value {
+    font-size: 30px;
+}
+
+.content-value {
+    width: 70px;
+    height: 70px;
+    border-radius: 100%;
+    border: 2px solid #333333;
+    padding: 17px;
+    margin-top: 25px;
+}
+
+.robototype {
+    font-family: 'Roboto', sans-serif;
+    font-size: 2em;
+}
+
+.robototypes {
+    font-family: 'Roboto', sans-serif;
+    font-size: 4em;
+}
+
+section#values li {
+    font-style: italic;
+    line-height: 1.8em;
+}
+
+section#frase {
+    background: url(../img/bg-header.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    padding: 6em 0;
+    color: #fff;
+}
+
+section#people {
+    background: #F7F7F7;
+}
+
+footer {
+    background: url(../img/bg-header.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    padding: 6em 0;
+    color: #aaa;
 }
