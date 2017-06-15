@@ -98,6 +98,10 @@ section#values li {
     line-height: 1.8em;
 }
 
+section#values {
+    padding-bottom: 60px;
+}
+
 section#frase {
     background: url(../img/bg-quote.jpg);
     background-size: cover;
@@ -129,6 +133,9 @@ section#people {
     padding: 7em 0;
 }
 
+section#people p {
+    font-size: 1.5em;
+}
 footer {
     background: url(../img/bg-footer.jpg);
     background-size: cover;
@@ -136,4 +143,146 @@ footer {
     background-repeat: no-repeat;
     padding: 6em 0;
     color: #aaa;
+}
+
+/* carousel */
+.media-carousel 
+{
+  margin-bottom: 0;
+  padding: 0 40px 30px 40px;
+  margin-top: 30px;
+}
+/* Previous and Next button  */
+.media-carousel .carousel-control {
+    font-size: 2em;
+}
+.media-carousel .carousel-control.left, .media-carousel .carousel-control.right {
+  background-image: none;
+  background: rgba(5,5,5,0.5);
+  height: 50px;
+  width : 40px;
+  margin-top: 5em;
+}
+/* Previous button  */
+.media-carousel .carousel-control.left 
+{
+  left: -12px;
+}
+/* Next button  */
+.media-carousel .carousel-control.right 
+{
+  right: -12px !important;
+}
+/* Changes the position of the indicators */
+.media-carousel .carousel-indicators 
+{
+  right: 50%;
+  top: auto;
+  bottom: 0px;
+  margin-right: -19px;
+}
+/* Changes the colour of the indicators */
+.media-carousel .carousel-indicators li 
+{
+  background: #c0c0c0;
+}
+.media-carousel .carousel-indicators .active 
+{
+  background: #333333;
+}
+.media-carousel img {
+  width: 90%;
+  height: auto;
+}
+.carousel-caption {
+    background: rgba(0,0,0,0.5);
+    height: 50%;
+    padding: 2em;
+    font-size: 0.7em;
+}
+
+.carousel-caption h2 {
+    color: rgba(255,255,255,0.8);
+    font-size: 2em;
+}
+
+.carousel-caption .rayita {
+    color: white;
+    width: 60px;
+}
+
+.carousel-caption a, .carousel-caption i {
+    color: rgba(255,255,255,0.8);
+    padding: 0.3em;
+}
+
+.thumbnail {
+    background-color: transparent;
+    border: 0;
+}
+
+/* End carousel */
+
+/* Carousel */
+
+#quote-carousel {
+    padding: 0 10px 30px 10px;
+    margin-top: 30px;
+    /* Control buttons  */
+    /* Previous button  */
+    /* Next button  */
+    /* Changes the position of the indicators */
+    /* Changes the color of the indicators */
+}
+#quote-carousel .carousel-control {
+    background: none;
+    color: #CACACA;
+    font-size: 2.3em;
+    text-shadow: none;
+    margin-top: 30px;
+}
+#quote-carousel .carousel-control.left {
+    left: -60px;
+}
+#quote-carousel .carousel-control.right {
+    right: -60px;
+}
+#quote-carousel .carousel-indicators {
+    right: 50%;
+    top: auto;
+    bottom: 0px;
+    margin-right: -19px;
+}
+#quote-carousel .carousel-indicators li {
+    width: 50px;
+    height: 50px;
+    margin: 5px;
+    cursor: pointer;
+    border: 4px solid #CCC;
+    border-radius: 50px;
+    opacity: 0.4;
+    overflow: hidden;
+    transition: all 0.4s;
+}
+#quote-carousel .carousel-indicators .active {
+    background: #333333;
+    width: 128px;
+    height: 128px;
+    border-radius: 100px;
+    border-color: #f33;
+    opacity: 1;
+    overflow: hidden;
+}
+.carousel-inner {
+    min-height: 300px;
+}
+.item blockquote {
+    border-left: none;
+    margin: 0;
+}
+.item blockquote p:before {
+    content: "\f10d";
+    font-family: 'Fontawesome';
+    float: left;
+    margin-right: 10px;
 }
