@@ -99,20 +99,38 @@ section#values li {
 }
 
 section#frase {
-    background: url(../img/bg-header.jpg);
+    background: url(../img/bg-quote.jpg);
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
-    padding: 6em 0;
+    padding: 9em 0;
     color: #fff;
+    height: 100vh;
+}
+
+section#frase p {
+    font-size: 42px;
+    line-height: 1.1em;
+}
+
+section#frase .btn-default {
+    margin-top: 20px;
+    background: none;
+    color: white;
+    font-weight: bold;
+    padding: 0.6em 1em;
+    font-family: 'Roboto', sans-serif;
+    font-size: 1em;
+    border: 1.5px solid white;
 }
 
 section#people {
     background: #F7F7F7;
+    padding: 7em 0;
 }
 
 footer {
-    background: url(../img/bg-header.jpg);
+    background: url(../img/bg-footer.jpg);
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
